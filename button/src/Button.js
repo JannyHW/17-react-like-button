@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function Button() {
   const [count, setCount] = useState(0);
 
-  let likes = () => (count !== 1) ? "Likes" : "Like";
+  let likes = () => (count === 1 ? "like" : "likes");
 
   function handleClick() {
     setCount(count + 1);

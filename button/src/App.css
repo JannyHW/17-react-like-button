@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #34b6da;
 }
 
 @keyframes App-logo-spin {
@@ -37,26 +37,30 @@
   }
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
 button {
-  position: absolute;
-  top: 40%;
-  left: 40%;
-  width: 160px;
+  background: #4a95d7;
+  width: 135px;
   height: 60px;
+  border-radius: 8px;
+  box-shadow: 0 5px #3d7db5;
+  cursor: pointer;
+  transform: scale(1);
+  color: white;
+  font-size: 20px;
   border: none;
   outline: none;
-  font-size: 20px;
-  cursor: pointer;
-  color: #e6f0f7;
-  transform: scale(1);
-  border-radius: 8px;
-  background: #61dafb;
-  box-shadow: 0 5px #61dafb;
-  transform: scale(1);
 }
 
 button:active {
-  transform: translateY(5px);
-  box-shadow: none;
+  transform: translateY(6px);
   outline: none;
+  box-shadow: none;
 }
